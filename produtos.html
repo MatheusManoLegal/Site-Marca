@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        .Productblock {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            cursor: pointer;
+            padding: 20px;
+            background-color: aquamarine;
+        }
+        .Productblock p {
+            margin-left: 70px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .Products p:hover {
+            transform: rotate(-5deg);
+        }
+        .Products { margin-bottom: 100px; cursor: pointer;}
+        .Products p {
+            background-color: #d84c72;
+            color: whitesmoke;
+            padding: 5px 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #Product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .flexboxprice {
+            flex-wrap: wrap;
+            display: flex;
+            background-color: bisque;
+            margin: 40px;
+            padding: 40px 70px;
+        }
+        .flexboxproduct {
+            margin: 40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .topNav{
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: #e1cdff ;
+            text-decoration: none;
+            text-align: center;
+        }
+        .topNav :hover {
+            background-color: #9e9e9e;
+        }
+    </style>
+</head>
+<body>
+    <div class="topNav">
+        <img src="apple-sem-fundo.png" alt="Logo" height="30" >
+        <a href="#blank" class="topNav">Home</a>
+        <a href="#blank" class="topNav">Produtos</a>
+        <a href="#blank" class="topNav">Historia</a>
+        <a href="#blank" class="topNav">Contatos</a>
+        <input type="text" placeholder="O que deseja?">
+    </div>
+    <main>
+        <section id="Product">
+            <div class="Products">
+                <img src="logo-apple.jpeg" alt="apple" width="100">
+                <p>R$300</p>
+            </div>
+            <div class="Products">
+                <img src="logo-apple.jpeg" alt="apple" width="100">
+                <p>R$300</p>
+            </div>
+            <div class="Products">
+                <img src="logo-apple.jpeg" alt="apple" width="100">
+                <p>R$300</p>
+            </div>
+            <div class="Products">
+                <img src="logo-apple.jpeg" alt="apple" width="100">
+                <p>R$300</p>
+            </div>
+            <div class="Products">
+                <img src="logo-apple.jpeg" alt="apple" width="100">
+                <p>R$300</p>
+            </div>
+        </section>
+    </main>
+    <secondmain>
+        <div class="Productblock">
+            <img src="logo-apple.jpeg" alt="" width="100">
+            <p>R$300</p>
+            <p>Texto exemplo para demosntração da descrição de produtos</p>
+        </div>
+        <div class="Productblock">
+            <img src="logo-apple.jpeg" alt="" width="100">
+            <p>R$300</p>
+            <p>Texto exemplo para demosntração da descrição de produtos</p>
+        </div>
+        <div class="Productblock">
+            <img src="logo-apple.jpeg" alt="" width="100">
+            <p>R$300</p>
+            <p>Texto exemplo para demosntração da descrição de produtos</p>
+        </div>
+        <div class="Productblock">
+            <img src="logo-apple.jpeg" alt="" width="100">
+            <p>R$300</p>
+            <p>Texto exemplo para demosntração da descrição de produtos</p>
+        </div>
+    </secondmain>
+</body>
+</html>
